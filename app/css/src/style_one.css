@@ -1,0 +1,10 @@
+
+body {
+  background: #ddd;
+}
+
+input:hover {
+  background: #000;
+  color: #fff;
+  outline: none;
+}
