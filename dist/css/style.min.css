@@ -1,6 +1,6 @@
-
 body {
   background: #ddd;
+  color: #000;
 }
 
 input:hover {
@@ -8,7 +8,7 @@ input:hover {
   color: #fff;
   outline: none;
 }
-;
+
 form {
   color: #fef;
 }
