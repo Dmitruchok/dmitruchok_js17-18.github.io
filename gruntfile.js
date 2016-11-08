@@ -16,6 +16,10 @@ module.exports = function(grunt) {
             src: ['app/css/src/*.css'],
             dest: 'dist/css/style.min.css'
           },
+          html: {
+            src: ['app/*.html'],
+            dest: 'dist/index.html'
+          },
         },
         uglify: {
           js: {
