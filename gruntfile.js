@@ -17,14 +17,18 @@ module.exports = function(grunt) {
             dest: 'app/css/dist/style.min.css'
           },
         },
+
         uglify: {
           dist:{
             src:['app/js/dist/script.min.js'],
-            dest: 'app/js/dist/script.min.js'
+            dest: 'app/js/dist/script.min.js',
+            src: ['app/css/dist/style.min.css'],
+            dest: 'app/css/dist/style.min.css'
           },
+
           dist:{
-            src: ['app/css/dist/css.min.css'],
-            dest: 'app/css/dist/css.min.css'
+            src: ['app/css/dist/style.min.css'],
+            dest: 'app/css/dist/style.min.css'
           }
         }
   });
