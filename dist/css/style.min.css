@@ -1,6 +1,9 @@
+
 body {
   background: #ddd;
   color: #000;
+  text-align: center;
+  margin-top: 200px;
 }
 
 input:hover {
